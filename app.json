@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Morpheus",
+    "slug": "Morpheus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070714"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.softgirl0.Morpheus",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bd1788e6-f786-4171-80fc-63891019008e"
+      }
+    },
+    "plugins": [
+      "expo-sharing"
+    ]
+  }
+}
